@@ -27,9 +27,12 @@ Purpose: Deduced Additional Information and visualization
 13. Additional Information #5: Made a list of most frequent distinct words used in the play by their occurance. 
 
 14. Visualization
+15. In order to apply logistic regression model, changed the datatype of all attribute to int
+16. Splited the data into testing and training data with the help of sklearn.model_selection import train_test_split
+17. Applied logistic regression model.
 
 Notebook: Shakespeare_notebook2.ipynb
-Purpose: Logistic Regression & Visualization
+Purpose: Logistic Regression & Visualization ( More on logistic Regression)
 
 1. Loaded the Shakespeare_data.csv in a dataframe.
 2. Handled missing values and clean the data.
@@ -37,8 +40,3 @@ Purpose: Logistic Regression & Visualization
 4. Splited the data into testing and training data with the help of sklearn.model_selection import train_test_split
 5. Applied logistic regression model.
 6. Found the accuracy.
-
-
-
-
-
