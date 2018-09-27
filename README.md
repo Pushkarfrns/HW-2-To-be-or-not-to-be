@@ -31,7 +31,12 @@ Purpose: Deduced Additional Information and visualization
 Notebook: Shakespeare_notebook2.ipynb
 Purpose: Logistic Regression & Visualization
 
-1. 
+1. Loaded the Shakespeare_data.csv in a dataframe.
+2. Handled missing values and clean the data.
+3. In order to apply logistic regression model, changed the datatype of all attribute to int
+4. Splited the data into testing and training data with the help of sklearn.model_selection import train_test_split
+5. Applied logistic regression model.
+6. Found the accuracy.
 
 
 
