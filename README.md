@@ -1,12 +1,23 @@
 # HW-2-To-be-or-not-to-be
 EECS 731:Assignment 2: HW2: To be, or not to be
 
-To be, or not to be
-  Classy Shakespeare plays and players
-1. Set up a data science project structure in a new git repository in your GitHub account
-2. Download the Shakespeare plays dataset from https://www.kaggle.com/kingburrito666/shakespeare-plays 
-3. Load the data set into panda data frames
-4. Formulate one or two ideas on how feature engineering would help the data set to establish additional value using exploratory data analysis
-5. Build one or more classification models to determine the player using the other columns as features
-6. Document your process and results
-7. Commit your notebook, source code, visualizations and other supporting files to the git repository in GitHub
+Notebook: HW_2_Shakespeare_data_new.ipynb
+
+1. Loaded the Shakespeare_data.csv in a dataframe.
+2. Replaced the NaN value in the Player column to be Unknown
+3. Additional Information #1: For each Play, number of lines (PlayerLine) spoken by each Player
+4. Converted the above new data (from 3) into a new data frame (playWise_lines_per_player).
+5. Additional Information #2: To count the number of PlayerLine corresponding to each Play.
+6. Converted the above new data (from 5) into a dataframe (playerLinePerPlay)
+7. Plotted a graph to show: PlayerLine against Name of the Play.
+8. Additional Information #3: Number of Players corresponding to each Play
+9. Converted the above new data (from 8) into a dataframe (playersPerPlay)
+10.Plotted a graph to show: Number of Players against Name of the Play.
+11. Additional Information #4: On the basis of number of words in each PlayerLine correspondong to each Player, found the the Player that spoke the maximum number of words, and hence is the important/ or the player that has spent most time in the play. 
+12. My findings --> Player named GLOUCESTER has maximum number of 14319 total words in all the PlayerLine, and hence the important/main.
+13. Additional Information #5: Made a list of most frequent distinct words used in the play by their occurance. 
+14. Visualization
+15. Logistic Regression:
+15.a)
+
+
